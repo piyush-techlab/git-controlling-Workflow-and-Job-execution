@@ -77,10 +77,10 @@ jobs:
         run: echo "Deploying..."
   report:
     runs-on: ubuntu-latest
+    if: failure()
     needs: [lint, deploy]
     steps:
       - name: Display failure Message if any
-        if: failure()
         run: | 
          echo "Something fails"
          echo "${{ github }}"
