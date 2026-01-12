@@ -83,5 +83,5 @@ jobs:
       - name: Display failure Message if any
         run: | 
          echo "Something fails"
-         echo "${{ github }}"
+         echo "${{github}}"
 
