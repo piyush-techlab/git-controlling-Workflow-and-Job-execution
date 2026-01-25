@@ -50,7 +50,7 @@ jobs:
          operating-system: [ubuntu-latest,windows-latest]
          exclude:
           - node: 16
-            operationg-system: windows-latest
+            operating-system: windows-latest
     runs-on: ${{matrix.operating-system}}
     steps:
       - name: Get code
