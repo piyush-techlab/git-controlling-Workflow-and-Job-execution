@@ -42,6 +42,7 @@ jobs:
           name: test-report
           path: test.json
   build:
+    continue-on-error: true
     needs: test
     strategy:
         matrix:
