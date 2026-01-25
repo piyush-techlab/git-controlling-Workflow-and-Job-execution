@@ -75,7 +75,7 @@ jobs:
       - name: Output contents
         run: ls
       - name: Deploy
-        uses: ./.github/workflows/reusable workflow.yml
+        uses: ./.github/workflows/reusable_workflow.yml
   report:
     runs-on: ubuntu-latest
     if: failure()
