@@ -3,7 +3,7 @@ name: Website Deployment #test add
 on:
   push: #push trigger
     branches:
-      - master 
+      - master #git pull check"
 jobs:
   lint:
     runs-on: ubuntu-latest
