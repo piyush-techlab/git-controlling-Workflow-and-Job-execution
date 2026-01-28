@@ -1,7 +1,7 @@
 #suraj bhandari
 name: Website Deployment #test add
 on:
-  push:
+  push: #push Trigger
     branches:
       - master
 jobs:
