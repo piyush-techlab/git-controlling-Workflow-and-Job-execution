@@ -1,9 +1,9 @@
 #suraj bhandari
 name: Website Deployment #test add
 on:
-  push: #push Trigger
+  push:
     branches:
-      - master
+      - master 
 jobs:
   lint:
     runs-on: ubuntu-latest
