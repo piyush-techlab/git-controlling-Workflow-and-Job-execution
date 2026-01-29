@@ -2,7 +2,7 @@ name: Website Deployment #Code push to branch1
 on:
   push:
     branches:
-      - master #masters
+      - master #master
 jobs:
   lint:
     runs-on: ubuntu-latest
