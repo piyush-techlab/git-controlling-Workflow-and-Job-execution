@@ -3,7 +3,7 @@ name: Website Deployment #test add
 on:
   push: #push trigger
     branches:
-      - master #git pull check"
+      - master #create pull conflict
 jobs:
   lint:
     runs-on: ubuntu-latest
